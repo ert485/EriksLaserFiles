@@ -1,0 +1,752 @@
+﻿<?xml encoding = "utf-8" version = "1.0"?>
+<smartcarve>
+  <workspace>
+    <language id = "10001" type = "enum" value = "english">
+      <english id = "10001" value = "en_us.xml"/>
+    </language>
+    <unit_type type = "enum" value = "Metric">
+      <Metric id = "6004"/>
+      <British id = "6005"/>
+    </unit_type>
+    <shape id = "10003" type = "enum" value = "rectangle">
+      <rectangle id = "10007"/>
+      <ellipse id = "10008"/>
+    </shape>
+    <machine_menu type = "int" value = "0"/>
+    <ShowTreeCtrl id = "" type = "bool" value = "false"/>
+    <width id = "10004" default = "1000000" type = "int" value = "1000000"/>
+    <height id = "10005" default = "800000" type = "int" value = "800000"/>
+    <Unit_Type id = "11002" default = "0" type = "int" value = "Metric"/>
+    <Paste_X id = "11003" default = "1.0" type = "double" value = "0.00000"/>
+    <Paste_Y id = "11004" default = "1.0" type = "double" value = "0.00000"/>
+    <Show_Grid id = "11005" default = "false" type = "bool" value = "false"/>
+    <Grid_Space id = "11006" default = "10.0" type = "double" value = "10.00000"/>
+    <BackColor id = "11007" default = "0xFFFFFF" type = "color" value = "16777215"/>
+    <WorkSpaceColor id = "11008" default = "0x000000" type = "color" value = "0"/>
+    <GridColor id = "11009" default = "0xC8C8C8" type = "color" value = "13158600"/>
+    <RulerColor id = "11100" default = "0xFFFFFF" type = "color" value = "16777215"/>
+    <ShowWorkSpace id = "11010" default = "true" type = "bool" value = "true"/>
+    <CircleWorkSpace id = "11011" default = "false" type = "bool" value = "false"/>
+    <bMultiLaser id = "" default = "false" type = "bool" value = "false"/>
+    <LaserDis id = "" default = "0.0" type = "double" value = "1.00000"/>
+    <AxisLine id = "11012" default = "true" type = "bool" value = "true"/>
+    <LeftBottomX id = "11013" default = "0.0" type = "double" value = "0.00000"/>
+    <LeftBottomY id = "11014" default = "0.0" type = "double" value = "0.00000"/>
+    <AutoCalcCenter id = "11028" default = "0" type = "bool" value = "false"/>
+    <EnableAutoSave id = "11015" default = "false" type = "bool" value = "true"/>
+    <AutoSaveInterval id = "11016" default = "10" type = "int" value = "1"/>
+    <NudgeDist id = "11017" default = "1.0" type = "double" value = "1.00000"/>
+    <NudgeScale id = "11018" default = "10.0" type = "double" value = "10.00000"/>
+    <RotateAngle id = "11019" default = "15.0" type = "double" value = "15.00000"/>
+    <EnableUser id = "11020" default = "false" type = "bool" value = "false"/>
+    <objectListHeight id = "11022" default = "150" type = "int" value = "150"/>
+    <LayerListHeight id = "11023" default = "150" type = "int" value = "151"/>
+    <InputNo id = "11024" default = "0" type = "int" value = "0"/>
+    <ToOriginX id = "11025" default = "0.0" type = "double" value = "0.00000"/>
+    <ToOriginY id = "11026" default = "0.0" type = "double" value = "0.00000"/>
+    <Max_Num id = "" default = "500" type = "int" value = "500"/>
+    <set_cvtprec default = "200" value = "20"/>
+    <small_graph_size default = "100" value = "10"/>
+    <link_line_prec default = "20" value = "20"/>
+    <default_layer id = "10006" type = "int" value = "0"/>
+    <current_layer id = "10009" type = "int" value = "0"/>
+    <coordinate_type id = "10010" type = "int" value = "0"/>
+    <object_list id = "" type = "bool" value = "true"/>
+    <layer_list id = "" type = "bool" value = "false"/>
+    <border id = "10022" default = "true" type = "bool" value = "true"/>
+    <color_bkgnd id = "" type = "color" value = "0xFFFFFF"/>
+    <color_frgnd id = "" type = "color" value = "0x000000"/>
+    <Grade id = "" default = "100" type = "UINT" value = "100"/>
+    <ruler type = "bool" value = "true"/>
+    <grid type = "bool" value = "false"/>
+    <ExportFile value = "c:"/>
+    <CutLength value = "500"/>
+    <UseCurrentData value = "false"/>
+    <SnapGraph value = "0"/>
+    <object_dockpage derive = "0" value = "0">
+      <width id = "" default = "235" type = "int" value = "237"/>
+      <height id = "" default = "777" type = "int" value = "692"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "1"/>
+      <dockpage id = "" type = "int" value = "0"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "161"/>
+      <beginY id = "" type = "int" value = "173"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </object_dockpage>
+    <layer_dockpage derive = "0" value = "1">
+      <width id = "" default = "285" type = "int" value = "403"/>
+      <height id = "" default = "777" type = "int" value = "692"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "2"/>
+      <dockpage id = "" type = "int" value = "1"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "1348"/>
+      <beginY id = "" type = "int" value = "173"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </layer_dockpage>
+    <convert_dockpage derive = "0" value = "2">
+      <width id = "" default = "190" type = "int" value = "193"/>
+      <height id = "" default = "380" type = "int" value = "692"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "1"/>
+      <dockpage id = "" type = "int" value = "2"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "398"/>
+      <beginY id = "" type = "int" value = "173"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </convert_dockpage>
+    <graphicLib_dockpage derive = "0" value = "5">
+      <width id = "" default = "235" type = "int" value = "0"/>
+      <height id = "" default = "800" type = "int" value = "0"/>
+      <visible id = "" type = "bool" value = "false"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "1"/>
+      <dockpage id = "" type = "int" value = "3"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "161"/>
+      <beginY id = "" type = "int" value = "174"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </graphicLib_dockpage>
+    <vision_dockpage derive = "3" value = "3">
+      <width id = "" default = "790" type = "int" value = "790"/>
+      <height id = "" default = "600" type = "int" value = "600"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "2"/>
+      <dockpage id = "" type = "int" value = "4"/>
+      <active id = "" type = "int" value = "-1"/>
+      <beginX id = "" type = "int" value = "0"/>
+      <beginY id = "" type = "int" value = "0"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </vision_dockpage>
+    <control_dockpage derive = "2" value = "4">
+      <width id = "" default = "700" type = "int" value = "700"/>
+      <height id = "" default = "210" type = "int" value = "210"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "2"/>
+      <dockpage id = "" type = "int" value = "4"/>
+      <active id = "" type = "int" value = "-1"/>
+      <beginX id = "" type = "int" value = "0"/>
+      <beginY id = "" type = "int" value = "0"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </control_dockpage>
+    <cursor id = "13001" type = "enum" value = "normal">
+      <normal id = "13002"/>
+      <precision id = "13003"/>
+      <cross id = "13004"/>
+    </cursor>
+    <PathOpt>
+      <OutPathOpt value = "true"/>
+      <Method value = "0"/>
+      <WorkStart value = "2"/>
+      <LineStart value = "1"/>
+      <InToOut value = "true"/>
+      <SortByLayer value = "true"/>
+      <SubAreaWidth value = "100000.000000"/>
+      <SubAreaHeight value = "100000.000000"/>
+    </PathOpt>
+    <text_size value = "93"/>
+    <Text_Font value = "Franklin Gothic Medium"/>
+    <Text_FontType value = "0"/>
+  </workspace>
+  <GTConfig>
+    <StartVel value = "8.333"/>
+    <JumpVel value = "200.0"/>
+    <JumpAcc value = "2000.0"/>
+    <MaxAcc value = "3000.0"/>
+    <JogMode value = "0"/>
+    <JumpDelay value = "30"/>
+    <TurnKp value = "0.01"/>
+    <SmallCirKp value = "0.7"/>
+    <LaserNum value = "1"/>
+    <AdjustMode value = "1"/>
+    <PowerType value = "2"/>
+    <PowerCtrl value = "0"/>
+    <PowerType2 value = "2"/>
+    <PowerCtrl2 value = "0"/>
+    <PWMFrq value = "5"/>
+    <PWMFrq2 value = "5"/>
+    <MaxEnergy value = "100.0"/>
+    <MaxDutyCycle value = "100.0"/>
+    <MaxDutyCycle2 value = "100.0"/>
+    <HoldFrq value = "0"/>
+    <HoldFrq2 value = "0"/>
+    <HoldPWM value = "0"/>
+    <HoldPWM2 value = "0"/>
+    <PWMDuty value = "50"/>
+    <PWMDuty2 value = "50"/>
+    <PreVltg value = "1.0"/>
+    <PreVltg2 value = "1.0"/>
+    <MaxVltg value = "3.333"/>
+    <MaxVltg2 value = "3.333"/>
+    <ConX value = "160.0"/>
+    <ConY value = "160.0"/>
+    <ConZ value = "160.0"/>
+    <ConA value = "160.0"/>
+    <HomeStyleX value = "0"/>
+    <HomeStyleY value = "0"/>
+    <HomeStyleZ value = "0"/>
+    <HomeStyleA value = "0"/>
+    <HomeDirX value = "1"/>
+    <HomeDirY value = "1"/>
+    <HomeDirZ value = "1"/>
+    <HomeDirA value = "1"/>
+    <HomeVelX value = "80.0"/>
+    <HomeVelY value = "80.0"/>
+    <HomeVelZ value = "80.0"/>
+    <HomeVelA value = "80.0"/>
+    <HomeOffsetX value = "15.0"/>
+    <HomeOffsetY value = "15.0"/>
+    <HomeOffsetZ value = "15.0"/>
+    <HomeOffsetA value = "15.0"/>
+    <StartAuto value = "0"/>
+    <OpenCover value = "0"/>
+    <Controller value = "1"/>
+    <ControlMode value = "1"/>
+    <ControlMode2 value = "1"/>
+    <ControlMode3 value = "1"/>
+    <ControlMode4 value = "1"/>
+    <DriverAlarm value = "0"/>
+    <DriverAlarm2 value = "0"/>
+    <DriverAlarm3 value = "0"/>
+    <DriverAlarm4 value = "0"/>
+    <MachineType value = "0"/>
+    <SoftLmtX value = "600.0"/>
+    <SoftLmtY value = "400.0"/>
+    <SoftLmtZ value = "9999.0"/>
+    <SoftLmtA value = "9999.0"/>
+    <SetPosX value = "0.0"/>
+    <SetPosY value = "0.0"/>
+    <LmtSns value = "255"/>
+    <HomeSns value = "0"/>
+    <ScaleXmin value = "0.0"/>
+    <ScaleXmax value = "0.0"/>
+    <ScaleYmin value = "0.0"/>
+    <ScaleYmax value = "0.0"/>
+    <BacklashX value = "0.0"/>
+    <BacklashY value = "0.0"/>
+    <FTPPath value = ""/>
+    <IP0 value = "192.168.1.8"/>
+    <EngReverse value = "0"/>
+    <LaserRatio value = "0.1"/>
+    <ScaleVel value = "100.0"/>
+    <ScaleAcc value = "1000.0"/>
+    <ScaleEnergy value = "50.0"/>
+    <LaserTime value = "100"/>
+    <ScalePdis value = "5.0"/>
+    <ScaleOffset value = "0.0"/>
+    <ScaleMode value = "0"/>
+    <CycNum value = "1"/>
+    <CurNum value = "0"/>
+    <TotalNum value = "0"/>
+    <StartPt value = "0"/>
+    <FinishBeep value = "3"/>
+    <NumPerCol value = "1"/>
+    <NumPerRow value = "1"/>
+    <RowDis value = "0.0"/>
+    <ColDis value = "0.0"/>
+    <MisMatchX value = "0.0"/>
+    <MisMatchY value = "0.0"/>
+    <RowMirrorX value = "0"/>
+    <RowMirrorY value = "0"/>
+    <ColMirrorX value = "0"/>
+    <ColMirrorY value = "0"/>
+    <FeedAxis value = "0"/>
+    <FeedVel value = "100.0"/>
+    <FeedDis value = "0.0"/>
+    <ZMinDis value = "130.0"/>
+    <ManAdjust value = "0"/>
+    <FeedLast value = "1"/>
+    <VelRatio value = "100.0"/>
+    <PowerRatio value = "100.0"/>
+    <CornerRatio value = "100.0"/>
+    <BacklashAdjust value = "0.0"/>
+    <Language value = "0"/>
+    <RotateAxis value = "10.0"/>
+    <APulseNum value = "20000"/>
+    <OutXPos1 value = "533.33"/>
+    <OutXPos2 value = "1066.67"/>
+    <PenOffsetX value = "0.0"/>
+    <PenOffsetY value = "0.0"/>
+    <TransDis value = "0.0"/>
+    <TransAxisNum value = "0"/>
+    <ExpDataType value = "1"/>
+    <CutLength value = "900"/>
+    <CutMode value = "1"/>
+    <CurveMode value = "0"/>
+    <Kp value = "1.0"/>
+    <Kp2 value = "1.0"/>
+    <Kp3 value = "1.0"/>
+    <Kp4 value = "1.0"/>
+    <Ki value = "0.0"/>
+    <Ki2 value = "0.0"/>
+    <Ki3 value = "0.0"/>
+    <Ki4 value = "0.0"/>
+    <Kd value = "0.0"/>
+    <Kd2 value = "0.0"/>
+    <Kd3 value = "0.0"/>
+    <Kd4 value = "0.0"/>
+    <Kvff value = "0.0"/>
+    <Kvff2 value = "0.0"/>
+    <Kvff3 value = "0.0"/>
+    <Kvff4 value = "0.0"/>
+    <Kaff value = "0.0"/>
+    <Kaff2 value = "0.0"/>
+    <Kaff3 value = "0.0"/>
+    <Kaff4 value = "0.0"/>
+    <ILmt value = "32767"/>
+    <ILmt2 value = "32767"/>
+    <ILmt3 value = "32767"/>
+    <ILmt4 value = "32767"/>
+    <MtrLmt value = "32767"/>
+    <MtrLmt2 value = "32767"/>
+    <MtrLmt3 value = "32767"/>
+    <MtrLmt4 value = "32767"/>
+    <MtrBias value = "0"/>
+    <MtrBias2 value = "0"/>
+    <MtrBias3 value = "0"/>
+    <MtrBias4 value = "0"/>
+    <PosErr value = "32767"/>
+    <PosErr2 value = "32767"/>
+    <PosErr3 value = "32767"/>
+    <PosErr4 value = "32767"/>
+    <MotionDelay value = "0"/>
+    <SmoothKp value = "0.33000"/>
+    <LaserOffDelay value = "0"/>
+    <LaserOnDelay value = "0"/>
+    <AutoFindZero value = "0"/>
+    <AutoFocus value = "0"/>
+    <AutoFocusKp value = "0.1"/>
+    <AutoFocusVltg value = "0.0"/>
+    <AutoFocusVltgMin value = "-10.0"/>
+    <AutoFocusVltgMax value = "10.0"/>
+    <SnsOffsetX value = "0.0"/>
+    <SnsOffsetY value = "0.0"/>
+    <PowerComp value = "0"/>
+    <PowerComp2 value = "0"/>
+    <LaserOutPort value = "1"/>
+    <LaserOutPort2 value = "0"/>
+    <PowerCompenAxis value = "0"/>
+    <PowerCompenAxis2 value = "0"/>
+    <PowerCompenKp value = "0.0"/>
+    <PowerCompenKp2 value = "0.0"/>
+  </GTConfig>
+  <Vision>
+    <VisionType value = "1"/>
+    <GrapMode value = "0"/>
+    <WantNum value = "1"/>
+    <Accept value = "0.6"/>
+    <Threshold value = "15"/>
+    <Bright value = "50"/>
+    <Contrast value = "3"/>
+    <Confusion value = "0.8"/>
+    <Overlap value = "0.3"/>
+    <CrossW value = "12"/>
+    <CrossH value = "12"/>
+    <RowDis value = "0.0000"/>
+    <ColDis value = "0.0000"/>
+    <Rows value = "1"/>
+    <Cols value = "1"/>
+    <StartPos value = "0"/>
+    <DisX value = "0.0000"/>
+    <DisY value = "0.0000"/>
+    <SpaceX value = "0.0"/>
+    <SpaceY value = "0.0"/>
+    <Angle value = "0.0"/>
+    <VisionConX value = "0.13"/>
+    <VisionConY value = "0.13"/>
+    <VisionConA value = "0"/>
+    <Calibration value = ""/>
+    <GranuValue value = "20"/>
+    <GranuValue2 value = "19"/>
+    <NoiseThre value = "10"/>
+    <TotalMagThre value = "500"/>
+    <MinAngle value = "0"/>
+    <MaxAngle value = "0"/>
+    <MinScale value = "1"/>
+    <MaxScale value = "1"/>
+    <CalDisX value = "10"/>
+    <CalDisY value = "10"/>
+    <OffsetAngle value = "0.0"/>
+    <WorkspaceX value = "100.0"/>
+    <WorkspaceY value = "100.0"/>
+    <VisionWidth value = "100.0"/>
+    <VisionHeight value = "100.0"/>
+    <JumpDelay value = "100.0"/>
+    <CutType value = "0"/>
+    <CameraType value = "0"/>
+    <CalType value = "1"/>
+    <VisionRatioX value = "0.0"/>
+    <VisionRatioY value = "0.0"/>
+    <ModelList value = ""/>
+    <SeekTool value = "0"/>
+    <Accuracy value = "1"/>
+    <CoarsestScale value = "3"/>
+    <RotMin value = "-45.0"/>
+    <RotMax value = "45.0"/>
+    <WorkMode value = "0"/>
+  </Vision>
+  <Backlash_table>
+    <table0 backlash = "0.0" minvalue = "0" maxvalue = "5"/>
+    <table1 backlash = "0.0" minvalue = "5" maxvalue = "10"/>
+    <table2 backlash = "0.0" minvalue = "10" maxvalue = "15"/>
+    <table3 backlash = "0.0" minvalue = "15" maxvalue = "20"/>
+    <table4 backlash = "0.0" minvalue = "20" maxvalue = "25"/>
+    <table5 backlash = "0.0" minvalue = "25" maxvalue = "30"/>
+    <table6 backlash = "0.0" minvalue = "30" maxvalue = "35"/>
+    <table7 backlash = "0.0" minvalue = "35" maxvalue = "40"/>
+    <table8 backlash = "0.0" minvalue = "40" maxvalue = "45"/>
+    <table9 backlash = "0.0" minvalue = "45" maxvalue = "50"/>
+  </Backlash_table>
+  <backlash_table_fc>
+    <table0 backlash = "0.00000" max_vel = "5.00000" min_vel = "0.00000"/>
+    <table1 backlash = "0.00000" max_vel = "10.00000" min_vel = "5.00000"/>
+    <table2 backlash = "0.00000" max_vel = "15.00000" min_vel = "10.00000"/>
+    <table3 backlash = "0.00000" max_vel = "20.00000" min_vel = "15.00000"/>
+    <table4 backlash = "0.00000" max_vel = "25.00000" min_vel = "20.00000"/>
+    <table5 backlash = "0.00000" max_vel = "30.00000" min_vel = "25.00000"/>
+    <table6 backlash = "0.00000" max_vel = "35.00000" min_vel = "30.00000"/>
+    <table7 backlash = "0.00000" max_vel = "40.00000" min_vel = "35.00000"/>
+    <table8 backlash = "0.00000" max_vel = "45.00000" min_vel = "40.00000"/>
+    <table9 backlash = "0.00000" max_vel = "50.00000" min_vel = "45.00000"/>
+  </backlash_table_fc>
+  <focus_table>
+    <table0 facula = "0.10000" focus = "0.50000"/>
+    <table1 facula = "0.20000" focus = "1.00000"/>
+    <table2 facula = "0.30000" focus = "1.50000"/>
+    <table3 facula = "0.40000" focus = "2.00000"/>
+    <table4 facula = "0.50000" focus = "2.50000"/>
+    <table5 facula = "0.60000" focus = "3.00000"/>
+    <table6 facula = "0.70000" focus = "3.50000"/>
+    <table7 facula = "0.80000" focus = "4.00000"/>
+    <table8 facula = "0.90000" focus = "4.50000"/>
+    <table9 facula = "1.00000" focus = "5.00000"/>
+    <table10 facula = "1.10000" focus = "5.50000"/>
+    <table11 facula = "1.19998" focus = "6.00000"/>
+    <table12 facula = "1.30000" focus = "6.50000"/>
+    <table13 facula = "1.39998" focus = "7.00000"/>
+    <table14 facula = "1.50000" focus = "7.50000"/>
+    <table15 facula = "1.60000" focus = "8.00000"/>
+    <table16 facula = "1.70000" focus = "8.50000"/>
+    <table17 facula = "1.80000" focus = "9.00000"/>
+    <table18 facula = "1.90000" focus = "9.50000"/>
+    <table19 facula = "2.00000" focus = "10.00000"/>
+  </focus_table>
+  <expCarveOut1>
+    <Port value = "7"/>
+    <OriginMode value = "current"/>
+    <FeedCount value = "0"/>
+    <CloneRow value = "1"/>
+    <CloneColumn value = "1"/>
+    <CutEdge value = "0"/>
+    <CutVel value = "100.000"/>
+    <CutPower value = "0.00"/>
+    <RotateDiameter value = "0"/>
+    <focus_index value = "0"/>
+  </expCarveOut1>
+  <impDxfFile>
+    <showText value = "0"/>
+    <enableDrill value = "0"/>
+    <drillTime value = "100"/>
+  </impDxfFile>
+  <impPltFile>
+    <Precision value = "1016.00"/>
+  </impPltFile>
+  <layer_list>
+    <layer process_media = "0" prior = "1" color = "0x00FF0000" visible = "true" id = "0" name = "1" acc = "0" process = "true" frequency = "0" end_power = "500" speed = "100000" begin_power = "500" laser_way = "15"/>
+    <layer process_media = "0" prior = "2" color = "0x0000FF00" visible = "true" id = "1" name = "2" acc = "0" process = "true" frequency = "0" end_power = "10000" speed = "18000" begin_power = "10000" laser_way = "15"/>
+    <layer process_media = "0" prior = "3" color = "0x000000FF" visible = "true" id = "2" name = "3" acc = "0" process = "true" frequency = "0" end_power = "10000" speed = "127000" begin_power = "10000" laser_way = "15"/>
+    <layer process_media = "0" prior = "4" color = "0x00800000" visible = "true" id = "3" name = "4" acc = "0" process = "true" frequency = "0" end_power = "10000" speed = "20000" begin_power = "10000" laser_way = "15"/>
+    <layer process_media = "0" prior = "5" color = "0x00008000" visible = "true" id = "4" name = "5" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "1000" laser_way = "15"/>
+    <layer process_media = "0" prior = "6" color = "0x00000080" visible = "true" id = "5" name = "6" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "7" color = "0x00808000" visible = "true" id = "6" name = "7" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "8" color = "0x00008080" visible = "true" id = "7" name = "8" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "9" color = "0x00808080" visible = "true" id = "8" name = "9" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "10" color = "0x00000000" visible = "true" id = "9" name = "10" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "11" color = "0x00000000" visible = "true" id = "10" name = "11" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "12" color = "0x00000000" visible = "true" id = "11" name = "12" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "13" color = "0x00000000" visible = "true" id = "12" name = "13" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "14" color = "0x00000000" visible = "true" id = "13" name = "14" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "15" color = "0x00000000" visible = "true" id = "14" name = "15" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "16" color = "0x00000000" visible = "true" id = "15" name = "16" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "17" color = "0x00000000" visible = "true" id = "16" name = "17" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "18" color = "0x00000000" visible = "true" id = "17" name = "18" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "19" color = "0x00000000" visible = "true" id = "18" name = "19" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "20" color = "0x00000000" visible = "true" id = "19" name = "20" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "21" color = "0x00000000" visible = "true" id = "20" name = "21" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "22" color = "0x00000000" visible = "true" id = "21" name = "22" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "23" color = "0x00000000" visible = "true" id = "22" name = "23" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "24" color = "0x00000000" visible = "true" id = "23" name = "24" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "25" color = "0x00000000" visible = "true" id = "24" name = "25" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "26" color = "0x00000000" visible = "true" id = "25" name = "26" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "27" color = "0x00000000" visible = "true" id = "26" name = "27" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "28" color = "0x00000000" visible = "true" id = "27" name = "28" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "29" color = "0x00000000" visible = "true" id = "28" name = "29" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "30" color = "0x00000000" visible = "true" id = "29" name = "30" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "31" color = "0x00000000" visible = "true" id = "30" name = "31" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "32" color = "0x00000000" visible = "true" id = "31" name = "32" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "33" color = "0x00000000" visible = "true" id = "32" name = "33" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "34" color = "0x00000000" visible = "true" id = "33" name = "34" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "35" color = "0x00000000" visible = "true" id = "34" name = "35" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "36" color = "0x00000000" visible = "true" id = "35" name = "36" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "37" color = "0x00000000" visible = "true" id = "36" name = "37" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "38" color = "0x00000000" visible = "true" id = "37" name = "38" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "39" color = "0x00000000" visible = "true" id = "38" name = "39" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "40" color = "0x00000000" visible = "true" id = "39" name = "40" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "41" color = "0x00000000" visible = "true" id = "40" name = "41" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "42" color = "0x00000000" visible = "true" id = "41" name = "42" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "43" color = "0x00000000" visible = "true" id = "42" name = "43" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "44" color = "0x00000000" visible = "true" id = "43" name = "44" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "45" color = "0x00000000" visible = "true" id = "44" name = "45" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "46" color = "0x00000000" visible = "true" id = "45" name = "46" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "47" color = "0x00000000" visible = "true" id = "46" name = "47" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "48" color = "0x00000000" visible = "true" id = "47" name = "48" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "49" color = "0x00000000" visible = "true" id = "48" name = "49" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "50" color = "0x00000000" visible = "true" id = "49" name = "50" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "51" color = "0x00000000" visible = "true" id = "50" name = "51" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "52" color = "0x00000000" visible = "true" id = "51" name = "52" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "53" color = "0x00000000" visible = "true" id = "52" name = "53" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "54" color = "0x00000000" visible = "true" id = "53" name = "54" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "55" color = "0x00000000" visible = "true" id = "54" name = "55" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "56" color = "0x00000000" visible = "true" id = "55" name = "56" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "57" color = "0x00000000" visible = "true" id = "56" name = "57" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "58" color = "0x00000000" visible = "true" id = "57" name = "58" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "59" color = "0x00000000" visible = "true" id = "58" name = "59" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "60" color = "0x00000000" visible = "true" id = "59" name = "60" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "61" color = "0x00000000" visible = "true" id = "60" name = "61" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "62" color = "0x00000000" visible = "true" id = "61" name = "62" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "63" color = "0x00000000" visible = "true" id = "62" name = "63" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "64" color = "0x00000000" visible = "true" id = "63" name = "64" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "65" color = "0x00000000" visible = "true" id = "64" name = "65" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "66" color = "0x00000000" visible = "true" id = "65" name = "66" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "67" color = "0x00000000" visible = "true" id = "66" name = "67" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "68" color = "0x00000000" visible = "true" id = "67" name = "68" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "69" color = "0x00000000" visible = "true" id = "68" name = "69" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "70" color = "0x00000000" visible = "true" id = "69" name = "70" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "71" color = "0x00000000" visible = "true" id = "70" name = "71" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "72" color = "0x00000000" visible = "true" id = "71" name = "72" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "73" color = "0x00000000" visible = "true" id = "72" name = "73" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "74" color = "0x00000000" visible = "true" id = "73" name = "74" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "75" color = "0x00000000" visible = "true" id = "74" name = "75" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "76" color = "0x00000000" visible = "true" id = "75" name = "76" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "77" color = "0x00000000" visible = "true" id = "76" name = "77" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "78" color = "0x00000000" visible = "true" id = "77" name = "78" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "79" color = "0x00000000" visible = "true" id = "78" name = "79" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "80" color = "0x00000000" visible = "true" id = "79" name = "80" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "81" color = "0x00000000" visible = "true" id = "80" name = "81" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "82" color = "0x00000000" visible = "true" id = "81" name = "82" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "83" color = "0x00000000" visible = "true" id = "82" name = "83" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "84" color = "0x00000000" visible = "true" id = "83" name = "84" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "85" color = "0x00000000" visible = "true" id = "84" name = "85" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "86" color = "0x00000000" visible = "true" id = "85" name = "86" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "87" color = "0x00000000" visible = "true" id = "86" name = "87" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "88" color = "0x00000000" visible = "true" id = "87" name = "88" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "89" color = "0x00000000" visible = "true" id = "88" name = "89" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "90" color = "0x00000000" visible = "true" id = "89" name = "90" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "91" color = "0x00000000" visible = "true" id = "90" name = "91" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "92" color = "0x00000000" visible = "true" id = "91" name = "92" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "93" color = "0x00000000" visible = "true" id = "92" name = "93" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "94" color = "0x00000000" visible = "true" id = "93" name = "94" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "95" color = "0x00000000" visible = "true" id = "94" name = "95" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "96" color = "0x00000000" visible = "true" id = "95" name = "96" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "97" color = "0x00000000" visible = "true" id = "96" name = "97" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "98" color = "0x00000000" visible = "true" id = "97" name = "98" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "99" color = "0x00000000" visible = "true" id = "98" name = "99" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "100" color = "0x00000000" visible = "true" id = "99" name = "100" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "101" color = "0x00000000" visible = "true" id = "100" name = "101" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "102" color = "0x00000000" visible = "true" id = "101" name = "102" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "103" color = "0x00000000" visible = "true" id = "102" name = "103" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "104" color = "0x00000000" visible = "true" id = "103" name = "104" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "105" color = "0x00000000" visible = "true" id = "104" name = "105" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "106" color = "0x00000000" visible = "true" id = "105" name = "106" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "107" color = "0x00000000" visible = "true" id = "106" name = "107" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "108" color = "0x00000000" visible = "true" id = "107" name = "108" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "109" color = "0x00000000" visible = "true" id = "108" name = "109" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "110" color = "0x00000000" visible = "true" id = "109" name = "110" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "111" color = "0x00000000" visible = "true" id = "110" name = "111" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "112" color = "0x00000000" visible = "true" id = "111" name = "112" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "113" color = "0x00000000" visible = "true" id = "112" name = "113" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "114" color = "0x00000000" visible = "true" id = "113" name = "114" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "115" color = "0x00000000" visible = "true" id = "114" name = "115" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "116" color = "0x00000000" visible = "true" id = "115" name = "116" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "117" color = "0x00000000" visible = "true" id = "116" name = "117" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "118" color = "0x00000000" visible = "true" id = "117" name = "118" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "119" color = "0x00000000" visible = "true" id = "118" name = "119" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "120" color = "0x00000000" visible = "true" id = "119" name = "120" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "121" color = "0x00000000" visible = "true" id = "120" name = "121" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "122" color = "0x00000000" visible = "true" id = "121" name = "122" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "123" color = "0x00000000" visible = "true" id = "122" name = "123" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "124" color = "0x00000000" visible = "true" id = "123" name = "124" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "125" color = "0x00000000" visible = "true" id = "124" name = "125" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "126" color = "0x00000000" visible = "true" id = "125" name = "126" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "127" color = "0x00000000" visible = "true" id = "126" name = "127" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "128" color = "0x00000000" visible = "true" id = "127" name = "128" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "129" color = "0x00000000" visible = "true" id = "128" name = "129" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "130" color = "0x00000000" visible = "true" id = "129" name = "130" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "131" color = "0x00000000" visible = "true" id = "130" name = "131" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "132" color = "0x00000000" visible = "true" id = "131" name = "132" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "133" color = "0x00000000" visible = "true" id = "132" name = "133" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "134" color = "0x00000000" visible = "true" id = "133" name = "134" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "135" color = "0x00000000" visible = "true" id = "134" name = "135" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "136" color = "0x00000000" visible = "true" id = "135" name = "136" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "137" color = "0x00000000" visible = "true" id = "136" name = "137" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "138" color = "0x00000000" visible = "true" id = "137" name = "138" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "139" color = "0x00000000" visible = "true" id = "138" name = "139" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "140" color = "0x00000000" visible = "true" id = "139" name = "140" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "141" color = "0x00000000" visible = "true" id = "140" name = "141" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "142" color = "0x00000000" visible = "true" id = "141" name = "142" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "143" color = "0x00000000" visible = "true" id = "142" name = "143" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "144" color = "0x00000000" visible = "true" id = "143" name = "144" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "145" color = "0x00000000" visible = "true" id = "144" name = "145" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "146" color = "0x00000000" visible = "true" id = "145" name = "146" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "147" color = "0x00000000" visible = "true" id = "146" name = "147" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "148" color = "0x00000000" visible = "true" id = "147" name = "148" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "149" color = "0x00000000" visible = "true" id = "148" name = "149" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "150" color = "0x00000000" visible = "true" id = "149" name = "150" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "151" color = "0x00000000" visible = "true" id = "150" name = "151" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "152" color = "0x00000000" visible = "true" id = "151" name = "152" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "153" color = "0x00000000" visible = "true" id = "152" name = "153" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "154" color = "0x00000000" visible = "true" id = "153" name = "154" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "155" color = "0x00000000" visible = "true" id = "154" name = "155" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "156" color = "0x00000000" visible = "true" id = "155" name = "156" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "157" color = "0x00000000" visible = "true" id = "156" name = "157" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "158" color = "0x00000000" visible = "true" id = "157" name = "158" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "159" color = "0x00000000" visible = "true" id = "158" name = "159" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "160" color = "0x00000000" visible = "true" id = "159" name = "160" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "161" color = "0x00000000" visible = "true" id = "160" name = "161" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "162" color = "0x00000000" visible = "true" id = "161" name = "162" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "163" color = "0x00000000" visible = "true" id = "162" name = "163" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "164" color = "0x00000000" visible = "true" id = "163" name = "164" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "165" color = "0x00000000" visible = "true" id = "164" name = "165" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "166" color = "0x00000000" visible = "true" id = "165" name = "166" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "167" color = "0x00000000" visible = "true" id = "166" name = "167" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "168" color = "0x00000000" visible = "true" id = "167" name = "168" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "169" color = "0x00000000" visible = "true" id = "168" name = "169" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "170" color = "0x00000000" visible = "true" id = "169" name = "170" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "171" color = "0x00000000" visible = "true" id = "170" name = "171" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "172" color = "0x00000000" visible = "true" id = "171" name = "172" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "173" color = "0x00000000" visible = "true" id = "172" name = "173" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "174" color = "0x00000000" visible = "true" id = "173" name = "174" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "175" color = "0x00000000" visible = "true" id = "174" name = "175" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "176" color = "0x00000000" visible = "true" id = "175" name = "176" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "177" color = "0x00000000" visible = "true" id = "176" name = "177" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "178" color = "0x00000000" visible = "true" id = "177" name = "178" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "179" color = "0x00000000" visible = "true" id = "178" name = "179" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "180" color = "0x00000000" visible = "true" id = "179" name = "180" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "181" color = "0x00000000" visible = "true" id = "180" name = "181" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "182" color = "0x00000000" visible = "true" id = "181" name = "182" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "183" color = "0x00000000" visible = "true" id = "182" name = "183" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "184" color = "0x00000000" visible = "true" id = "183" name = "184" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "185" color = "0x00000000" visible = "true" id = "184" name = "185" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "186" color = "0x00000000" visible = "true" id = "185" name = "186" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "187" color = "0x00000000" visible = "true" id = "186" name = "187" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "188" color = "0x00000000" visible = "true" id = "187" name = "188" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "189" color = "0x00000000" visible = "true" id = "188" name = "189" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "190" color = "0x00000000" visible = "true" id = "189" name = "190" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "191" color = "0x00000000" visible = "true" id = "190" name = "191" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "192" color = "0x00000000" visible = "true" id = "191" name = "192" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "193" color = "0x00000000" visible = "true" id = "192" name = "193" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "194" color = "0x00000000" visible = "true" id = "193" name = "194" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "195" color = "0x00000000" visible = "true" id = "194" name = "195" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "196" color = "0x00000000" visible = "true" id = "195" name = "196" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "197" color = "0x00000000" visible = "true" id = "196" name = "197" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "198" color = "0x00000000" visible = "true" id = "197" name = "198" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "199" color = "0x00000000" visible = "true" id = "198" name = "199" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "200" color = "0x00000000" visible = "true" id = "199" name = "200" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "201" color = "0x00000000" visible = "true" id = "200" name = "201" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "202" color = "0x00000000" visible = "true" id = "201" name = "202" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "203" color = "0x00000000" visible = "true" id = "202" name = "203" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "204" color = "0x00000000" visible = "true" id = "203" name = "204" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "205" color = "0x00000000" visible = "true" id = "204" name = "205" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "206" color = "0x00000000" visible = "true" id = "205" name = "206" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "207" color = "0x00000000" visible = "true" id = "206" name = "207" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "208" color = "0x00000000" visible = "true" id = "207" name = "208" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "209" color = "0x00000000" visible = "true" id = "208" name = "209" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "210" color = "0x00000000" visible = "true" id = "209" name = "210" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "211" color = "0x00000000" visible = "true" id = "210" name = "211" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "212" color = "0x00000000" visible = "true" id = "211" name = "212" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "213" color = "0x00000000" visible = "true" id = "212" name = "213" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "214" color = "0x00000000" visible = "true" id = "213" name = "214" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "215" color = "0x00000000" visible = "true" id = "214" name = "215" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "216" color = "0x00000000" visible = "true" id = "215" name = "216" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "217" color = "0x00000000" visible = "true" id = "216" name = "217" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "218" color = "0x00000000" visible = "true" id = "217" name = "218" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "219" color = "0x00000000" visible = "true" id = "218" name = "219" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "220" color = "0x00000000" visible = "true" id = "219" name = "220" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "221" color = "0x00000000" visible = "true" id = "220" name = "221" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "222" color = "0x00000000" visible = "true" id = "221" name = "222" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "223" color = "0x00000000" visible = "true" id = "222" name = "223" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "224" color = "0x00000000" visible = "true" id = "223" name = "224" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "225" color = "0x00000000" visible = "true" id = "224" name = "225" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "226" color = "0x00000000" visible = "true" id = "225" name = "226" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "227" color = "0x00000000" visible = "true" id = "226" name = "227" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "228" color = "0x00000000" visible = "true" id = "227" name = "228" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "229" color = "0x00000000" visible = "true" id = "228" name = "229" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "230" color = "0x00000000" visible = "true" id = "229" name = "230" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "231" color = "0x00000000" visible = "true" id = "230" name = "231" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "232" color = "0x00000000" visible = "true" id = "231" name = "232" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "233" color = "0x00000000" visible = "true" id = "232" name = "233" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "234" color = "0x00000000" visible = "true" id = "233" name = "234" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "235" color = "0x00000000" visible = "true" id = "234" name = "235" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "236" color = "0x00000000" visible = "true" id = "235" name = "236" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "237" color = "0x00000000" visible = "true" id = "236" name = "237" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "238" color = "0x00000000" visible = "true" id = "237" name = "238" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "239" color = "0x00000000" visible = "true" id = "238" name = "239" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "240" color = "0x00000000" visible = "true" id = "239" name = "240" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "241" color = "0x00000000" visible = "true" id = "240" name = "241" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "242" color = "0x00000000" visible = "true" id = "241" name = "242" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "243" color = "0x00000000" visible = "true" id = "242" name = "243" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "244" color = "0x00000000" visible = "true" id = "243" name = "244" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "245" color = "0x00000000" visible = "true" id = "244" name = "245" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "246" color = "0x00000000" visible = "true" id = "245" name = "246" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "247" color = "0x00000000" visible = "true" id = "246" name = "247" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "248" color = "0x00000000" visible = "true" id = "247" name = "248" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "249" color = "0x00000000" visible = "true" id = "248" name = "249" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "250" color = "0x00000000" visible = "true" id = "249" name = "250" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "251" color = "0x00000000" visible = "true" id = "250" name = "251" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "252" color = "0x00000000" visible = "true" id = "251" name = "252" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "253" color = "0x00000000" visible = "true" id = "252" name = "253" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "254" color = "0x00000000" visible = "true" id = "253" name = "254" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "255" color = "0x00000000" visible = "true" id = "254" name = "255" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "256" color = "0x00808080" visible = "true" id = "255" name = "256" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+  </layer_list>
+  <group_list>
+    <group layer_id = "0" process = "true" type = "10">
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "4712,18462,10000;2760,18047;6009,2760;7961,3175;8445,898;4217,0;0,19840;4228,20739;4712,18462;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "8391,9082,10000;11207,10295;11422,9885;11686,9533;12000,9237;12363,8998;12776,8816;13238,8690;13750,8622;14311,8610;14922,8655;15582,8757;15886,8821;16174,8894;16444,8977;16698,9068;16936,9169;17156,9280;17360,9399;17548,9528;17718,9666;17872,9813;18009,9967;18128,10122;18228,10280;18311,10441;18376,10604;18423,10770;18453,10938;18464,11108;18457,11281;18433,11456;18404,11584;18369,11709;18326,11830;18276,11947;18219,12061;18155,12171;18083,12278;18004,12382;17919,12482;17825,12578;17720,12669;17599,12752;17461,12827;17306,12893;17135,12952;16947,13003;16743,13046;16522,13080;16285,13107;16032,13126;12802,13200;12476,13225;12166,13255;11872,13290;11594,13331;11333,13378;11088,13430;10859,13487;10645,13550;10449,13618;10268,13691;10098,13772;9932,13863;9770,13964;9613,14074;9461,14195;9313,14325;9169,14465;9030,14615;8896,14775;8766,14945;8642,15121;8527,15302;8421,15488;8324,15677;8235,15871;8154,16069;8083,16272;8020,16478;7966,16689;7920,16905;7855,17332;7826,17748;7831,18153;7872,18547;7948,18930;8059,19302;8206,19663;8387,20012;8604,20351;8855,20679;9136,20989;9440,21277;9766,21542;10115,21784;10487,22004;10881,22201;11299,22375;11739,22526;12202,22655;12688,22761;13098,22829;13502,22877;13902,22904;14296,22911;14685,22897;15069,22863;15448,22809;15822,22734;16191,22638;16554,22523;16905,22387;17234,22230;17544,22054;17832,21858;18100,21642;18347,21406;18573,21150;18779,20874;18964,20578;19128,20262;16312,19050;16115,19334;15890,19579;15639,19785;15361,19952;15056,20080;14725,20170;14367,20220;13983,20231;13571,20204;13133,20138;12879,20084;12640,20022;12414,19952;12203,19873;12006,19786;11824,19691;11656,19588;11503,19476;11363,19356;11239,19228;11128,19094;11033,18957;10953,18816;10887,18673;10837,18526;10801,18376;10780,18223;10774,18066;10783,17907;10807,17744;10877,17498;10988,17275;11142,17077;11337,16902;11574,16752;11853,16625;12174,16522;12536,16443;12941,16388;13387,16357;16243,16212;16749,16172;17225,16114;17669,16037;18084,15942;18467,15829;18821,15698;19144,15548;19436,15381;19698,15195;19929,14991;20137,14773;20329,14547;20506,14313;20666,14071;20810,13821;20938,13562;21050,13295;21147,13019;21227,12736;21291,12444;21362,11974;21393,11517;21384,11074;21335,10644;21247,10228;21119,9825;20951,9436;20743,9060;20495,8697;20208,8348;19887,8017;19541,7710;19167,7426;18767,7166;18341,6928;17889,6715;17409,6524;16904,6357;16372,6213;15813,6093;15337,6013;14868,5956;14407,5922;13954,5910;13509,5922;13072,5957;12643,6014;12222,6094;11809,6197;11404,6323;11013,6474;10642,6653;10290,6860;9959,7095;9648,7357;9357,7646;9085,7964;8834,8309;8603,8682;8391,9082;8391,9082;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "37579,10128,10000;34445,9627;32600,13036;25823,11953;25143,8141;22639,7741;25676,24726;29370,25316;37579,10128;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "31262,15516,10000;27655,22190;26316,14726;31262,15516;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "36850,14045,10000;39733,15089;39923,14668;40166,14301;40462,13987;40811,13727;41212,13521;41666,13369;42173,13270;42732,13225;43345,13234;44010,13297;44317,13343;44608,13400;44883,13466;45142,13543;45385,13630;45612,13727;45823,13834;46017,13952;46196,14080;46358,14218;46503,14362;46631,14511;46741,14663;46833,14818;46908,14977;46964,15140;47003,15306;47025,15475;47028,15648;47014,15825;46993,15954;46965,16080;46930,16203;46887,16324;46836,16441;46779,16555;46714,16666;46641,16774;46561,16879;46474,16980;46374,17077;46258,17167;46124,17250;45974,17326;45806,17394;45622,17456;45421,17511;45202,17558;44967,17599;44715,17632;41496,17896;41171,17940;40864,17988;40573,18041;40298,18098;40040,18160;39798,18226;39572,18297;39363,18372;39171,18451;38995,18535;38829,18626;38669,18727;38514,18837;38364,18956;38219,19086;38079,19224;37944,19373;37814,19530;37689,19698;37569,19875;37456,20059;37352,20246;37257,20437;37170,20632;37093,20831;37025,21033;36965,21240;36914,21450;36872,21664;36840,21881;36800,22312;36795,22729;36824,23133;36888,23524;36987,23902;37119,24266;37287,24618;37488,24956;37724,25282;37995,25594;38294,25887;38613,26157;38955,26402;39317,26624;39702,26821;40107,26994;40534,27144;40982,27269;41452,27370;41943,27447;42356,27491;42763,27515;43164,27519;43558,27502;43945,27466;44327,27409;44702,27333;45071,27236;45433,27119;45789,26982;46131,26826;46451,26651;46749,26457;47025,26244;47280,26013;47513,25762;47724,25493;47913,25206;48080,24899;48226,24574;45344,23529;45163,23825;44953,24082;44714,24303;44447,24486;44150,24632;43825,24741;43470,24812;43087,24846;42675,24843;42234,24803;41977,24764;41734,24716;41505,24659;41290,24593;41088,24518;40901,24433;40727,24340;40567,24237;40421,24126;40289,24005;40171,23878;40068,23747;39979,23611;39905,23472;39846,23328;39802,23181;39772,23029;39757,22873;39756,22713;39771,22550;39826,22300;39924,22071;40066,21864;40251,21678;40479,21514;40750,21371;41064,21249;41421,21149;41821,21071;42265,21013;45108,20701;45611,20631;46082,20545;46521,20443;46929,20323;47306,20188;47651,20036;47964,19868;48246,19683;48497,19482;48716,19265;48911,19036;49089,18799;49251,18555;49397,18304;49526,18045;49639,17779;49735,17506;49815,17226;49879,16938;49926,16643;49969,16169;49973,15712;49938,15270;49864,14844;49751,14433;49600,14039;49409,13660;49179,13297;48911,12949;48604,12618;48264,12306;47900,12020;47511,11758;47096,11522;46657,11310;46192,11123;45703,10961;45188,10824;44649,10712;44084,10624;43603,10573;43132,10543;42670,10536;42217,10552;41774,10589;41339,10649;40915,10732;40499,10837;40093,10964;39696,11113;39314,11287;38954,11488;38616,11715;38299,11968;38004,12248;37730,12555;37478,12887;37247,13247;37038,13633;36850,14045;36850,14045;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "65636,13332,10000;62343,13003;58040,20948;55298,16455;55710,12340;52732,12042;51111,28255;54089,28552;54904,20399;54997,20572;55084,20733;55166,20883;55243,21022;55315,21151;55381,21268;55443,21374;55499,21470;55550,21554;55596,21628;60282,29171;63353,29478;59886,23947;65636,13332;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "80837,14394,10000;77670,14175;76137,17735;69290,17260;68273,13523;65744,13348;70282,29995;74014,30254;80837,14394;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "75025,20324,10000;72026,27293;70029,19978;75025,20324;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "87938,14667,10000;84948,14542;84377,28163;80058,27982;79947,30640;91907,31141;92019,28483;87367,28288;87938,14667;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "100374,14661,10000;99735,14677;99123,14742;98540,14858;97986,15022;97459,15236;96961,15500;96491,15813;96049,16176;95635,16588;95250,17050;94896,17548;94579,18070;94298,18616;94054,19185;93845,19778;93672,20395;93536,21035;93436,21699;93372,22387;93344,23098;93354,23806;93403,24490;93491,25151;93618,25790;93784,26405;93989,26997;94234,27566;94517,28112;94839,28635;95201,29135;95595,29599;96014,30016;96458,30384;96928,30705;97423,30977;97944,31202;98490,31378;99061,31507;99658,31587;100280,31620;100907,31604;101508,31540;102082,31427;102631,31265;103153,31054;103649,30795;104118,30488;104562,30131;104979,29726;105370,29272;105730,28782;106053,28266;106338,27726;106588,27161;106800,26571;106975,25957;107114,25317;107216,24653;107281,23964;107309,23250;107300,22503;107252,21785;107164,21095;107038,20434;106873,19802;106669,19199;106426,18624;106143,18078;105822,17561;105462,17073;105070,16623;104651,16219;104207,15861;103737,15550;103241,15286;102719,15068;102172,14896;101598,14771;100999,14693;100374,14661;100374,14661;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "100369,17321,10000;100702,17339;101023,17381;101334,17448;101634,17541;101923,17659;102202,17802;102470,17970;102727,18163;102974,18381;103209,18625;103428,18902;103622,19219;103793,19578;103939,19977;104062,20418;104161,20900;104236,21422;104286,21986;104313,22590;104316,23236;104300,23764;104264,24269;104209,24751;104135,25209;104042,25643;103930,26054;103800,26441;103650,26805;103481,27145;103293,27462;103085,27751;102856,28010;102607,28237;102336,28433;102045,28599;101732,28733;101399,28836;101045,28908;100670,28949;100275,28959;99512,28890;98832,28705;98234,28404;97717,27987;97282,27454;96930,26804;96659,26038;96470,25157;96363,24159;96338,23045;96356,22491;96393,21964;96451,21465;96529,20994;96627,20550;96746,20135;96884,19747;97042,19386;97221,19054;97419,18749;97637,18473;97871,18227;98123,18010;98392,17823;98678,17666;98982,17538;99303,17439;99641,17370;99997,17331;100369,17321;100369,17321;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "116172,14620,10000;115534,14657;114925,14742;114346,14876;113797,15058;113277,15290;112788,15569;112328,15897;111898,16274;111498,16700;111128,17174;110791,17683;110491,18215;110228,18770;110002,19347;109813,19946;109660,20568;109545,21213;109466,21880;109424,22569;109420,23281;109452,23988;109524,24670;109633,25328;109781,25962;109967,26572;110191,27157;110454,27718;110754,28254;111094,28766;111471,29254;111880,29706;112312,30108;112768,30462;113248,30767;113752,31023;114280,31231;114831,31390;115407,31499;116006,31561;116628,31573;117255,31537;117853,31453;118423,31322;118966,31142;119481,30915;119968,30640;120428,30317;120860,29946;121264,29528;121640,29062;121983,28560;122289,28034;122557,27485;122788,26912;122981,26316;123136,25696;123254,25052;123335,24385;123377,23694;123382,22980;123349,22233;123277,21517;123168,20830;123020,20174;122835,19548;122611,18951;122349,18385;122050,17849;121712,17342;121336,16866;120929,16428;120498,16038;120042,15695;119562,15400;119058,15151;118529,14951;117977,14797;117399,14691;116798,14632;116172,14620;116172,14620;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "116254,17279,10000;116586,17286;116909,17317;117222,17375;117525,17458;117818,17566;118101,17700;118375,17859;118638,18044;118891,18254;119135,18490;119362,18760;119567,19071;119749,19424;119908,19818;120045,20255;120159,20733;120251,21253;120320,21814;120367,22418;120391,23063;120391,23591;120372,24097;120332,24580;120273,25040;120195,25477;120096,25892;119978,26283;119840,26652;119682,26997;119505,27320;119306,27616;119086,27881;118844,28117;118580,28322;118294,28496;117986,28641;117657,28754;117305,28838;116932,28891;116537,28914;115772,28870;115087,28707;114479,28426;113949,28025;113497,27506;113124,26869;112828,26112;112611,25237;112471,24243;112410,23131;112410,22576;112431,22048;112472,21548;112535,21074;112619,20628;112723,20209;112849,19816;112996,19451;113163,19113;113352,18802;113560,18519;113786,18266;114031,18041;114294,17845;114575,17678;114874,17540;115192,17432;115528,17352;115882,17301;116254,17279;116254,17279;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "138355,14071,10000;135159,14236;129688,25000;129661,25053;129630,25113;129597,25178;129560,25250;129520,25328;129477,25413;129430,25503;129381,25600;129328,25703;129272,25812;129247,25862;129221,25912;129195,25964;129169,26016;129142,26070;129114,26124;129086,26180;129057,26236;129028,26293;128998,26352;128393,14584;125736,14720;126573,30992;130116,30810;135134,20938;135154,20899;135188,20834;135236,20740;135298,20620;135374,20471;135464,20296;135567,20093;135685,19862;135816,19604;135961,19319;136535,30480;139192,30343;138355,14071;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "144548,13594,10000;141564,13816;142774,30064;145758,29842;144548,13594;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "161475,20392,10000;160667,12118;159364,12246;158679,14536;158332,14084;157958,13686;157559,13341;157132,13050;156680,12813;156201,12630;155695,12500;155164,12424;154605,12402;154021,12433;153373,12522;152764,12659;152194,12843;151663,13074;151170,13354;150717,13680;150302,14055;149925,14477;149588,14946;149289,15463;149028,16011;148800,16571;148607,17144;148448,17730;148324,18328;148234,18940;148179,19564;148158,20201;148172,20851;148220,21514;148306,22209;148427,22878;148581,23522;148770,24142;148993,24736;149251,25304;149542,25848;149868,26366;150228,26859;150623,27327;151046,27756;151494,28134;151966,28459;152462,28733;152982,28954;153527,29124;154096,29242;154689,29308;155306,29322;155948,29284;156426,29222;156883,29131;157321,29012;157738,28864;158135,28687;158511,28482;158868,28248;159204,27986;159519,27694;159815,27374;160088,27034;160336,26681;160560,26315;160759,25937;160933,25546;161083,25142;161207,24726;161308,24298;161383,23857;161434,23403;158424,23363;158324,23944;158182,24469;157996,24938;157766,25351;157492,25709;157175,26010;156815,26256;156411,26446;155963,26580;155472,26658;155149,26675;154835,26665;154531,26625;154236,26557;153951,26460;153675,26335;153408,26181;153151,25999;152903,25788;152665,25548;152440,25279;152233,24978;152044,24645;151873,24281;151720,23885;151584,23458;151466,23000;151366,22510;151284,21988;151219,21435;151146,20292;151162,19261;151266,18342;151458,17536;151739,16843;152109,16262;152566,15793;153113,15437;153747,15193;154471,15062;154764,15043;155049,15042;155326,15061;155594,15099;155854,15156;156105,15232;156348,15328;156582,15442;156808,15576;157026,15729;157230,15898;157415,16081;157582,16277;157731,16488;157862,16711;157974,16949;158067,17200;158142,17465;158199,17743;158238,18035;154897,18361;155156,21009;161475,20392;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "190989,7793,10000;187829,8303;183559,19598;183538,19654;183515,19716;183488,19785;183460,19861;183428,19943;183394,20031;183358,20126;183319,20228;183278,20336;183234,20450;183215,20502;183195,20555;183175,20610;183154,20665;183133,20721;183111,20778;183089,20836;183067,20895;183044,20955;183020,21017;181141,9384;178515,9808;181113,25893;184616,25327;188532,14968;188548,14928;188575,14859;188613,14761;188661,14634;188720,14479;188790,14295;188871,14081;188963,13840;189066,13569;189179,13269;190961,24302;193587,23878;190989,7793;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "193517,5619,10000;195479,5254;198335,20619;196374,20984;196799,23272;201049,22482;197342,2540;193092,3330;193517,5619;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "211102,20803,10000;210007,16955;213936,17494;214103,15421;210172,15180;211945,11721;209832,10877;208643,14490;206109,11654;204520,13271;207512,15735;204012,17527;204999,19359;208379,17295;208920,21258;211102,20803;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "171207,24233,10000;171602,27193;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "171347,27208,10000;170929,24277;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "170929,24277,10000;167603,17643;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "168048,17595,10000;172566,16991;171217,24243;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "168020,17620,10000;166760,15100;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "171598,27195,10000;173528,26925;177098,10034;173950,10441;173147,14234;166760,15097;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "166341,15115,10000;164609,11651;162094,11976;169818,27406;171350,27207;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "167610,17640,10000;166340,15115;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+    </group>
+  </group_list>
+</smartcarve>
+<CRC>
+  <code value = "69d7a5e7"/>
+</CRC>
